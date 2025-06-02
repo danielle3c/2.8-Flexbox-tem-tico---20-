@@ -2,16 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  body {
+}
+
+body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f2f4f8;
-  }
-  
-  .contenedor {
+}
+
+.contenedor {
     display: flex;
     height: 100vh;
-  }
+}
+
 /* NAV */
 .nav {
     background-color: #37474f;
@@ -20,68 +22,95 @@
     flex: 1;
     max-width: 300px;
     padding: 20px;
-  }
-  
-  .nav h2 {
+}
+
+.nav h2 {
     margin-bottom: 20px;
-  }
-  
-  .nav ul {
+}
+
+.nav ul {
     list-style: none;
-  }
-  
-  .nav li {
+}
+
+.nav li {
     margin: 10px 0;
-  }
-  
-  .nav a {
+}
+
+.nav a {
     text-decoration: none;
     color: white;
     transition: 0.3s;
-  }
-  
-  .nav a:hover {
+}
+
+.nav a:hover {
     color: #ffd54f;
-  }
-  
-  /* CONTENIDO */
-  .contenido {
+}
+
+/* CONTENIDO */
+.contenido {
     flex: 4;
     padding: 30px;
-  }
-  .galeria {
+}
+
+.galeria {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
-  }
-  
-  .tarjeta {
+}
+
+.tarjeta {
     padding: 30px;
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
-  
-  .tarjeta:hover {
+}
+
+.tarjeta:hover {
     transform: scale(1.05);
-  }
-  
-  /* Proporciones */
-  .tarjeta1 {
+}
+
+/* Proporciones */
+.tarjeta1 {
     flex: 3;
-    background-color: #ffd54f;
-  }
-  
-  .tarjeta2 {
-    flex: 2;
+    padding: 40px;
+}
+
+.tarjeta2 {
+    flex: 6;
     background-color: #4fc3f7;
-  }
-  
-  .tarjeta3 {
+}
+
+.tarjeta3 {
     flex: 1;
     background-color: #81c784;
-  }
-      
+}
+
+.tarjeta4 {
+    flex: 1;
+    background-color: #ff8a65;
+}
+
+.tarjeta5 {
+    flex: 1;
+    background-color: #ba68c8;
+}
+
+
+.tarjeta6 {
+    flex: 1;
+    background-color: #ff7043;
+}
+
+.tarjeta7 {
+    flex: 1;
+    background-color: #64b5f6;
+}
+
+
+.tarjeta8 {
+    flex: 1;
+    background-color: #aed581;
+}
