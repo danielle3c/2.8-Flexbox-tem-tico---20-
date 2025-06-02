@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f2f4f8;
+    background-color: #181011;
 }
 
 .contenedor {
@@ -20,7 +20,7 @@ body {
     color: white;
     min-width: 200px;
     flex: 1;
-    max-width: 300px;
+    max-width: 100%;
     padding: 20px;
 }
 
@@ -52,30 +52,58 @@ body {
     padding: 30px;
 }
 
+/* Contenedor vertical de secciones */
 .galeria {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-direction: column;
+    gap: 40px;
     margin-top: 20px;
 }
 
+/* Cada sección (part1, part2...) */
+.galeria section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Título arriba */
+.galeria h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #37474f;
+    text-align: center;
+}
+
+/* Las tarjetas van debajo del título */
+.galeria-fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Tarjetas generales */
 .tarjeta {
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    min-width: 150px;
+    flex: 1;
+    max-width: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .tarjeta:hover {
     transform: scale(1.05);
 }
 
 /* Proporciones */
-.grande {
+.portada {
     flex: none; /* evita que crezca automáticamente */
-    background-color: #ffd54f;
+    background-color:  #2933aa;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,19 +112,72 @@ body {
     border-radius: 8px; /* opcional, mejora estética */
 }
 
-.grande img {
-    width: 100px; /* aún más pequeña si quieres */
+.portada img {
+    width: 100px;
     height: auto;
     border-radius: 10px;
 }
 
 
-.mediana {
+.protagonista {
     flex: 2;
-    background-color: #4fc3f7;
+    background-color: #5e0f99;
 }
 
-.pequeña {
+.sasesinos {
     flex: 1;
-    background-color: #81c784;
+    background-color: #343686;
 }
+
+.otros{
+    background-color: #e60fe4;   
+}
+
+
+.curiosidades{
+    background-color: #ba68c8;
+}
+
+.portada1{
+    background-color: #280d0a;
+}
+
+.protagonista1{
+    background-color: #692a0a;
+}
+
+.sasesinos1{
+    background-color: #6c180c;
+}
+
+.otros1{
+    background-color: #f3b033;
+}
+
+.curiosidades1{
+    background-color: #ad4c16;
+}
+
+
+
+
+.portada2{
+    background-color: #1d0a09;
+}
+
+.protagonista2{
+    background-color: #354d36;
+}
+
+.sasesinos2{
+    background-color: #245c48;
+}
+
+.otros2{
+    background-color: #ffb74d;
+}
+
+.curiosidades2{
+    background-color: #ff8a65;
+}
+
