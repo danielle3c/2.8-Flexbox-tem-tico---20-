@@ -52,14 +52,31 @@ body {
     padding: 30px;
 }
 
+/* GALERÍA */
 .galeria {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-direction: column; /* Apila las secciones verticalmente */
+    gap: 40px;
     margin-top: 20px;
 }
 
+/* Cada sección tiene sus tarjetas apiladas */
+.galeria section {
+    display: flex;
+    flex-direction: column; /* Apila las tarjetas como filas */
+    gap: 15px;
+}
+
+/* Estilo de los títulos de cada parte */
+.galeria h2 {
+    font-size: 1.2rem;
+    color: #37474f;
+    margin-bottom: 10px;
+}
+
+/* Tarjetas generales */
 .tarjeta {
+    width: 100%; /* Ocupa todo el ancho disponible */
     padding: 30px;
     border-radius: 10px;
     background-color: #fff;
@@ -72,45 +89,21 @@ body {
     transform: scale(1.05);
 }
 
-/* Proporciones */
-.tarjeta1 {
-    flex: 3;
-    padding: 40px;
-}
+/* Colores personalizados */
+.tarjeta1 { background-color: #5e0f99; }
+.tarjeta2 { background-color: #e60fe4; }
+.tarjeta3 { background-color: #0a2e65; }
+.tarjeta4 { background-color: #ff8a65; }
+.tarjeta5 { background-color: #ba68c8; }
 
-.tarjeta2 {
-    flex: 6;
-    background-color: #4fc3f7;
-}
+.tarjeta6 { background-color: #ff7043; }
+.tarjeta7 { background-color: #64b5f6; }
+.tarjeta8 { background-color: #aed581; }
+.tarjeta9 { background-color: #ffb74d; }
+.tarjeta10 { background-color: #ff8a65; }
 
-.tarjeta3 {
-    flex: 1;
-    background-color: #81c784;
-}
-
-.tarjeta4 {
-    flex: 1;
-    background-color: #ff8a65;
-}
-
-.tarjeta5 {
-    flex: 1;
-    background-color: #ba68c8;
-}
-
-
-.tarjeta6 {
-    flex: 1;
-    background-color: #ff7043;
-}
-
-.tarjeta7 {
-    flex: 1;
-    background-color: #64b5f6;
-}
-
-
-.tarjeta8 {
-    flex: 1;
-    background-color: #aed581;
-}
+.tarjeta11 { background-color: #ba68c8; }
+.tarjeta12 { background-color: #64b5f6; }
+.tarjeta13 { background-color: #aed581; }
+.tarjeta14 { background-color: #ffb74d; }
+.tarjeta15 { background-color: #ff8a65; }
