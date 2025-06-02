@@ -70,17 +70,17 @@
   }
   
   /* Proporciones */
-  .grande {
+  .tarjeta1 {
     flex: 3;
     background-color: #ffd54f;
   }
   
-  .mediana {
+  .tarjeta2 {
     flex: 2;
     background-color: #4fc3f7;
   }
   
-  .pequeña {
+  .tarjeta3 {
     flex: 1;
     background-color: #81c784;
   }
