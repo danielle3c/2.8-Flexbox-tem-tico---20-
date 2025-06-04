@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100%;
     font-family: 'Segoe UI', sans-serif;
     background-color: #181011;
 }
@@ -12,16 +13,19 @@ body {
 .contenedor {
     display: flex;
     height: 100vh;
+    /* Asegura que todo el contenedor use el alto de la pantalla */
 }
 
 /* NAV */
 .nav {
     background-color: #37474f;
     color: white;
-    min-width: 200px;
-    flex: 1;
-    max-width: 100%;
+    width: 200px;
     padding: 20px;
+    height: 100vh;
+    /* Asegura que la barra lateral use el alto completo */
+    overflow-y: auto;
+    /* Si hay mucho contenido, activa scroll */
 }
 
 .nav h2 {
@@ -30,6 +34,8 @@ body {
 
 .nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
@@ -43,13 +49,20 @@ body {
 }
 
 .nav a:hover {
-    color: #ffd54f;
+    color: #FF5252;
 }
 
 /* CONTENIDO */
 .contenido {
-    flex: 4;
+    flex: 1;
     padding: 30px;
+    height: 100vh;
+    overflow-y: auto;
+    /* Permite hacer scroll si el contenido es largo */
+}
+
+.contenido h1 {
+    color: #FF5252;
 }
 
 /* Contenedor vertical de secciones */
@@ -71,7 +84,7 @@ body {
 .galeria h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #37474f;
+    color: #FF5252;
     text-align: center;
 }
 
@@ -82,6 +95,7 @@ body {
     gap: 15px;
     justify-content: center;
 }
+
 
 /* Tarjetas generales */
 .tarjeta {
@@ -102,14 +116,18 @@ body {
 
 /* Proporciones */
 .portada {
-    flex: none; /* evita que crezca automáticamente */
-    background-color:  #2933aa;
+    flex: none;
+    /* evita que crezca automáticamente */
+    background-color: #2933aa;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px; /* antes era 150px */
-    padding: 70px; /* opcional, ajusta si quieres margen interno */
-    border-radius: 8px; /* opcional, mejora estética */
+    width: 200px;
+    /* antes era 150px */
+    padding: 70px;
+    /* opcional, ajusta si quieres margen interno */
+    border-radius: 8px;
+    /* opcional, mejora estética */
 }
 
 .portada img {
@@ -129,55 +147,54 @@ body {
     background-color: #343686;
 }
 
-.otros{
-    background-color: #e60fe4;   
+.otros {
+    background-color: #e60fe4;
 }
 
 
-.curiosidades{
+.curiosidades {
     background-color: #ba68c8;
 }
 
-.portada1{
+.portada1 {
     background-color: #280d0a;
 }
 
-.protagonista1{
+.protagonista1 {
     background-color: #692a0a;
 }
 
-.sasesinos1{
+.sasesinos1 {
     background-color: #6c180c;
 }
 
-.otros1{
+.otros1 {
     background-color: #f3b033;
 }
 
-.curiosidades1{
+.curiosidades1 {
     background-color: #ad4c16;
 }
 
 
 
 
-.portada2{
+.portada2 {
     background-color: #1d0a09;
 }
 
-.protagonista2{
+.protagonista2 {
     background-color: #354d36;
 }
 
-.sasesinos2{
+.sasesinos2 {
     background-color: #245c48;
 }
 
-.otros2{
+.otros2 {
     background-color: #ffb74d;
 }
 
-.curiosidades2{
+.curiosidades2 {
     background-color: #ff8a65;
 }
-
