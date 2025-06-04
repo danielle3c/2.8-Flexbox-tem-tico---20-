@@ -7,7 +7,7 @@
 body {
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #1d1b1b;
+    background-color: #292626;
 }
 
 .contenedor {
@@ -16,7 +16,7 @@ body {
 }
 
 .nav {
-    background-color: #3d3636;
+    background-color: #302c2c;
     color: white;
     width: 200px;
     padding: 20px;
@@ -45,7 +45,7 @@ body {
 }
 
 .nav a:hover {
-    color: #FF5252;
+    color: #9856c1;
 }
 
 /* CONTENIDO */
@@ -57,7 +57,7 @@ body {
 }
 
 .contenido h1 {
-    color: #FF5252;
+    color: #621c71;
 }
 
 .galeria {
@@ -107,7 +107,7 @@ body {
 
 .portada {
     flex: 3;
-    background-color: #2933aa;
+    background-color: #621c71 ;
     height: 500px;
     min-width: 400px;
     /* o el mínimo ancho que quieras */
@@ -123,7 +123,7 @@ body {
 
 .sasesinos {
     flex: 1;
-    background-color: #343686;
+    background-color: #9856c1;
     height: 500px;
     min-width: 400px;
 }
@@ -145,7 +145,7 @@ body {
 
 .protagonista {
     flex: 1;
-    background-color: #5e0f99;
+    background-color: #9f1aa3;
     height: 300px;
     border-radius: 10px;
 }
@@ -161,7 +161,7 @@ body {
 
 .otrs {
     flex: 1;
-    background-color: #f06292;
+    background-color: #9738b6;
     height: 440px;
     border-radius: 10px;
 
@@ -185,7 +185,7 @@ body {
 
 .otros {
     flex: 4;
-    background-color: #e60fe4;
+    background-color: #ae2468;
     padding: -0px;
 
 
@@ -193,8 +193,12 @@ body {
 
 
 .portada1 {
-    flex: 2;
-    background-color: #280d0a;
+
+        background-color: #d35622;
+    flex: 3;
+    
+    height: 500px;
+    min-width: 400px;
 }
 
 .portada1 img {
@@ -206,7 +210,9 @@ body {
 
 .protagonista1 {
     flex: 3;
-    background-color: #692a0a;
+    background-color: #9d4e16;
+    width: 250px;
+    height: 300px;
 }
 
 .protagonista1 img {
@@ -217,7 +223,9 @@ body {
 
 .sasesinos1 {
     flex: 1;
-    background-color: #6c180c;
+    background-color: #edc766;
+    width: 250px;
+    height: 200px;
 }
 
 .sasesinos1 img {
@@ -227,7 +235,7 @@ body {
 }
 
 .otros1 {
-    background-color: #f3b033;
+    background-color: #d58214;
 }
 
 .otros1 img {
@@ -238,7 +246,7 @@ body {
 
 
 .curiosidades1 {
-    background-color: #ad4c16;
+    background-color: #bf430b;
 }
 
 .curiosidades1 img {
@@ -279,10 +287,11 @@ body {
 }
 
 .sasesinos2 {
-    background-color: #245c48;
-    width: 250px;
-  height: 200px;
+  background-color: #245c48;
+    max-width: 200px;
+  
 }
+
 
 .sasesinos2 img {
     width: 100px;
@@ -292,16 +301,15 @@ body {
 
 .otros2 {
     background-color: #ffb74d;
-    width: 250px;
-  height: 200px;
+    width: 1250px;
+  height: 500px;
 }
 
 .otros2 img {
-    width: 100px;
     height: auto;
     border-radius: 10px;
     width: 250px;
-  height: 200px;
+  height: 2200px;
 }
 
 .columna-protagonistas2-asesinos2 {
