@@ -33,7 +33,7 @@ El objetivo principal es que los estudiantes puedan **diseñar, desarrollar y do
 
 ##  Tecnologías y herramientas utilizadas
 
-- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript    
+- **Frontend:** HTML5, CSS3    
 - **Entorno de desarrollo:** Visual Studio Code (VSCode)  
 - **Control de versiones:** Git y GitHub  
 
