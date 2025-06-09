@@ -8,8 +8,9 @@
 body {
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #292626;
+    background: linear-gradient(to bottom right, #ff0000, rgb(0, 0, 0));
 }
+
 
 
 /* === LAYOUT PRINCIPAL === */
@@ -50,7 +51,7 @@ body {
 }
 
 .nav a:hover {
-    color: #9856c1;
+    color: #ff0000;
 }
 
 
@@ -304,7 +305,7 @@ body {
 .asesinos2 {
     /* probable error de typo en el nombre de clase */
     flex: 1;
-    background-color: #c6a279;
+    background-color: #79c6bc;
     max-width: 200px;
 }
 
