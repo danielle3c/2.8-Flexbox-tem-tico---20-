@@ -1,43 +1,80 @@
-#  Proyecto: Información sobre la trilogía original de *La Calle del Terror* (Fear Street) – Aplicación Web CRUD
+# 🎬 Sitio Temático: Galería de Fear Street
 
-Este repositorio contiene el desarrollo de una **aplicación web básica con funcionalidad CRUD (Crear, Leer, Actualizar, Eliminar)**, orientada a informar sobre la trilogía de *La Calle del Terror*. El proyecto tiene fines educativos y fue creado para apoyar el aprendizaje de desarrollo web con **HTML, CSS**.
+Este proyecto es un sitio web estático diseñado con HTML y CSS que presenta una galería temática basada en la trilogía de películas *Fear Street* (1994, 1978, 1666) producida por Netflix.
 
-**Contactos:**
-- lennethnaveas@liceovvh.cl  
-- daniellefigueroa@liceovvh.cl
+## 🌐 Descripción
 
----
+El sitio permite explorar visualmente los elementos clave de cada película de la trilogía, incluyendo:
 
-## Temática de la página
+- **Portadas oficiales**
+- **Protagonistas**
+- **Asesinos**
+- **Personajes secundarios**
+- **Curiosidades de la saga**
 
-La trilogía *La Calle del Terror* es una saga de películas de horror que gira en torno a una serie de asesinatos ocurridos en el pueblo maldito de **Shadyside**. La historia se divide en tres partes, ambientadas en diferentes épocas, pero conectadas por una misma maldición.
-
-### Parte 1: 1994
-Tras una nueva ola de asesinatos, un grupo de adolescentes comienza a investigar los oscuros secretos de su pueblo. Pronto descubren que todo está relacionado con una antigua maldición originada por una supuesta bruja.
-
-### Parte 2: 1978
-La historia se traslada a un campamento de verano, donde ocurre una masacre. Una sobreviviente relata los hechos y el grupo descubre más pistas sobre la maldición, al encontrar el cuerpo de la bruja. Mientras tanto, deben huir de un asesino descontrolado.
-
-### Parte 3: 1666
-Se revela el origen de la maldición: una joven es acusada de brujería por besar a otra mujer, y es ejecutada injustamente. La verdad es que la familia **Goode** ha perpetuado la maldición para beneficiar a **Sunnyvale**, a costa del sufrimiento de Shadyside.
+Está estructurado en un diseño *flexbox* adaptable y organizado en secciones por película. También incluye una barra de navegación lateral para moverse entre los distintos apartados.
 
 ---
 
-##  Objetivo del proyecto
+## 📁 Estructura de Archivos
 
-El objetivo principal es que los estudiantes puedan **diseñar, desarrollar y documentar una aplicación CRUD funcional**, comprendiendo la relación entre:
-
-- La **interfaz de usuario (Frontend)**
-
----
-
-##  Tecnologías y herramientas utilizadas
-
-- **Frontend:** HTML5, CSS3    
-- **Entorno de desarrollo:** Visual Studio Code (VSCode)  
-- **Control de versiones:** Git y GitHub  
+.
+├── index.html
+├── style.css
+├── README.md
+└── img/
+├── descarga.jpg
+├── images.jpg
+├── FS1994Josh.webp
+└── ... (otras imágenes de personajes y escenas)
 
 ---
 
+## 💡 Tecnologías Usadas
 
+- HTML5
+- CSS3 (Flexbox)
+- Tipografía: Segoe UI
 
+---
+
+## 🧭 Navegación
+
+- 🔍 Explorador lateral con enlaces a: Libros, Películas, Galería, Shadyside, Sunnyvale.
+- 🎥 Tres secciones principales:
+  - **Parte 1: 1994**
+  - **Parte 2: 1978**
+  - **Parte 3: 1666**
+- 📸 Cada sección incluye tarjetas visuales con imágenes y descripciones.
+
+---
+
+## 📦 Cómo Ejecutarlo
+
+1. **Clona o descarga este repositorio.**
+2. Asegúrate de tener todas las imágenes en la carpeta `img/`.
+3. Abre el archivo `index.html` con cualquier navegador web moderno.
+
+---
+
+## ✨ Mejores Prácticas
+
+- El diseño usa `flexbox` para adaptabilidad.
+- El CSS está segmentado por secciones y bien comentado para facilitar la edición.
+- Todas las imágenes están integradas con etiquetas `alt` para mejorar la accesibilidad.
+
+---
+
+## 🧙‍♀️ Créditos
+
+Proyecto desarrollado por [Tu Nombre o Alias], inspirado en la trilogía *Fear Street* de Netflix.  
+Imágenes usadas solo con fines educativos. Todos los derechos pertenecen a sus respectivos autores.
+
+---
+
+## 📌 Notas
+
+- Si deseas ampliar el sitio, puedes incluir secciones interactivas con JavaScript.
+- También podrías hacer que los enlaces del menú naveguen por anclas internas (`#`).
+
+---

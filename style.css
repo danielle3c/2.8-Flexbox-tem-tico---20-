@@ -21,7 +21,7 @@ body {
 
 /* === NAVEGACIÓN LATERAL === */
 .nav {
-    background-color: #302c2c;
+    background: linear-gradient(to bottom, #000000, #f80000);
     color: white;
     width: 200px;
     padding: 20px;
@@ -181,10 +181,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(96, 39, 109);
+
 }
 
-.otros-asesinos{
+.otros-asesinos {
     flex: 1;
     background-color: #621c71;
     height: 440px;
@@ -203,7 +203,7 @@ body {
 .portada1 {
     background-color: #d35622;
     flex: 1;
-        height: 500px;
+    height: 500px;
     min-width: 400px;
 }
 
@@ -236,8 +236,8 @@ body {
 }
 
 .asesinos1 img {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -301,7 +301,8 @@ body {
 }
 
 /* Asesinos2 */
-.sasesinos2 {  /* probable error de typo en el nombre de clase */
+.asesinos2 {
+    /* probable error de typo en el nombre de clase */
     flex: 1;
     background-color: #c6a279;
     max-width: 200px;
@@ -313,16 +314,15 @@ body {
     border-radius: 10px;
 }
 
-/* Otros personajes2 */
-.otros-personajes2 {
+.otros_personajes2 {
     background-color: #3da285;
     width: 1250px;
-    height: 500px;
+    height: 690px;
 }
 
-.otros-personajes2 img {
-    width: 250px;
-    height: 2200px;
+.otros_personajes2 img {
+    width: 100px;
+    height: auto;
     border-radius: 10px;
 }
 
