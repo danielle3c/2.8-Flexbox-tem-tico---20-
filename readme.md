@@ -67,7 +67,7 @@ Está estructurado en un diseño *flexbox* adaptable y organizado en secciones p
 
 ## 🧙‍♀️ Créditos
 
-Proyecto desarrollado por [Tu Nombre o Alias], inspirado en la trilogía *Fear Street* de Netflix.  
+Proyecto desarrollado por danielle y lenneth correos sofiafigueroa@liceovvh.cl y lennethnaveas@liceovvh.cl , inspirado en la trilogía *Fear Street* de Netflix.  
 Imágenes usadas solo con fines educativos. Todos los derechos pertenecen a sus respectivos autores.
 
 ---
