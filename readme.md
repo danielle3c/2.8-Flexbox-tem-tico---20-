@@ -72,9 +72,4 @@ Imágenes usadas solo con fines educativos. Todos los derechos pertenecen a sus 
 
 ---
 
-## 📌 Notas
 
-- Si deseas ampliar el sitio, puedes incluir secciones interactivas con JavaScript.
-- También podrías hacer que los enlaces del menú naveguen por anclas internas (`#`).
-
----
