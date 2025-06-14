@@ -1,4 +1,4 @@
-/* === ESTILOS GENERALES === */
+/* === ESTILOS GENERALES === */ 
 * {
     box-sizing: border-box;
     margin: 0;
@@ -113,88 +113,117 @@ body {
     transform: scale(1.05);
 }
 
+/* Títulos de las tarjetas */
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* 👈 Aquí se crea el espacio entre columnas */
+    flex-wrap: wrap; /* Para que sea responsivo */
+    margin-bottom: 30px; /* Separación con lo que está abajo */
+}
 
-/* === SECCIÓN 1 === */
-/* Portada */
-.portada {
-    flex: 3;
-    background-color: #621c71;
-    height: 500px;
-    min-width: 400px;
+/* Tarjetas individuales */
+.tarjeta {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* Efecto hover */
+.tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Título de cada tarjeta */
+.tarjeta h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+    color: #ff2c2c;
+}
+
+
+.portada{
+    flex: 1;
+    background-color: #d35622;
+    height: 600px;
+    min-width: 500px;
 }
 
 .portada img {
-    width: 160px;
-    height: 250px;
+    width: 270px;
+    height: auto;
     border-radius: 10px;
 }
 
-/* Asesinos */
-.asesinos {
+.asesinos{
     flex: 1;
-    background-color: #9856c1;
-    height: 500px;
-    min-width: 400px;
+    background-color: #edc766;
+    height: 600px;
+    min-width: 500px;
 }
 
 .asesinos img {
-    width: 123px;
-    height: 100px;
+    width: 220px;
+    height: 220px;
     border-radius: 10px;
 }
 
-/* Contenedor columna portada y asesinos */
 .columna-portada-asesinos {
+    flex: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Protagonista */
 .protagonista {
     flex: 1;
-    background-color: #9f1aa3;
-    height: 300px;
-    border-radius: 10px;
+    background-color: #d35622;
+    height: 600px;
+    min-width: 500px;
 }
-
 .protagonista img {
-    width: 100px;
+    width: 220px;
     height: auto;
     border-radius: 10px;
 }
 
-/* Otros personajes */
 .otros-personajes {
     flex: 1;
-    background-color: #9738b6;
-    height: 440px;
-    border-radius: 10px;
+    background-color: #d58214;
+    height: 600px;
+    min-width: 500px;
 }
 
 .otros-personajes img {
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
-.columna-personajes {
+.columna-protagonista-otros-personajes{
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
-
-.otros-asesinos {
+.otros-asesinos-abajo {
     flex: 1;
-    background-color: #621c71;
-    height: 440px;
-    border-radius: 10px;
+    background-color: #bf430b;
+    height: 300px;
+    min-width: 1200px;
 }
 
-.otros-asesinos img {
-    width: 100px;
-    height: auto;
+.otros-asesinos-abajo img {
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -291,8 +320,8 @@ body {
 .protagonista2 {
     flex: 2;
     background-color: #59b59136;
-    width: 250px;
-    height: 200px;
+height: 300px;
+    min-width: 400px;
 }
 
 .protagonista2 img {
@@ -306,7 +335,8 @@ body {
     /* probable error de typo en el nombre de clase */
     flex: 1;
     background-color: #79c6bc;
-    max-width: 200px;
+    max-width: 400px;
+    
 }
 
 .asesinos2 img {
@@ -338,7 +368,39 @@ body {
 /* === SECCIÓN CURIOSIDADES === */
 .curiosidades {
     flex: 1;
-    background-color: #8cb0a7;
+    background-color: #ad7051;
     height: 500px;
     min-width: 400px;
+} 
+
+/* Detalle flotante */
+#detalle-tarjeta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    max-width: 600px;
+    max-height: 70%;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+    background: rgb(199, 89, 89);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    z-index: 1000;
 }
+
+.detalle-oculto {
+    display: none;
+}
+
+/* Fondo oscuro detrás */
+#detalle-tarjeta::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;}

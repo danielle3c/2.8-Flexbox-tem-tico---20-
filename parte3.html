@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitio Temático Flex</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <nav class="nav">
+            <h2>🔍 Explorador</h2>
+            <ul>
+                <li><a href="#">Libros</a></li>
+                <li><a href="#">Peliculas</a></li>
+                <li><a href="#">Galería de Fear Street</a></li>
+                <li><a href="#">Shadyside</a></li>
+                <li><a href="#">Sunnyvale</a></li>
+                <li><a href="index.html">Parte 1</a></li>
+                <li><a href="part2.html">Parte 2</a></li>
+                <li><a href="parte3.html">Parte 3</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Contenido principal -->
+        <main class="contenido">
+            <h1>🎮🎮🎥 Galería de Fear Street</h1>
+            <div class="galeria">
+                                <section class="part3">
+                    <h2>🧙‍♀️🔮🩸Ψ Parte 3: 1666</h2>
+                    <div class="galeria-fila">
+
+                        <div class="tarjeta portada2" data-titulo="Portada Parte 3"
+                            data-contenido="En esta película transcurre tanto en el pasado y el presente de Shadyside, en una visión
+                                del pasado podemos ver la verdadera historia de Sarah Fier y su juicio por brujería. En
+                                el presente Deena logra romper la maldición en la que el pueblo estuvo atrapado por
+                                años.">
+                            <h3>Portada</h3>
+                            <img src="img/fear_street_part_three_1666-198549562-large.jpg" alt="Portada Parte 3" />
+
+                        </div>
+
+                        <div class="columna-protagonista2-asesinos2">
+                            <div class="tarjeta protagonista2" data-titulo="Protagonistas Parte 3"
+                                data-contenido="Deena y Sarah Fier son las protagonistas que enfrentan la maldición y buscan la verdad detrás de la historia.">
+                                <h3>Protagonistas</h3>
+                                <img src="img/calle-terror-1666-denna.png" alt="Deena" />
+                                <img src="img/SarahFierla-calle-del-terror.png" alt="Sarah Fier" />
+                            </div>
+
+                            <div class="tarjeta asesinos2" data-titulo="Asesinos Parte 3"
+                                data-contenido="Cyrus Miller, Nick Goode y Caleb son los asesinos que aparecen en esta parte de la saga.">
+                                <h3>Asesinos</h3>
+                                <img src="img/FS1666CyrusMiller.webp" alt="Cyrus Miller" />
+                                <img src="img/FS1666NickGoode.webp" alt="Nick Goode" />
+                                <img src="img/FS1666Caleb.webp" alt="Caleb" />
+                            </div>
+                        </div>
+
+                        <div class="tarjeta otros_personajes2" data-titulo="Otros personajes Parte 3"
+                            data-contenido="Cberman, Martin, Deena, Sam y Josh son personajes secundarios que enriquecen la historia de esta parte.">
+                            <h3>Otros personajes</h3>
+                            <img src="img/FS1666Cberman.webp" alt="Cberman" />
+                            <img src="img/FS1666Martin.webp" alt="Martin" />
+                            <img src="img/images (1).jpg" alt="Deena" />
+                            <img src="img/images (2).jpg" alt="Sam" />
+                            <img src="img/FS1994Josh.webp" alt="Josh" />
+                        </div>
+
+                        <div class="tarjeta curiosidades" data-titulo="Curiosidades"
+                            data-contenido="Estas películas son un homenaje a las clásicas películas de slasher, mezclando terror de slasher y brujería.Aquí hay algunas curiosidades de esta exitosa trilogía de Netflix: estas películas son
+                                un claro homenaje a las clásicas películas de slasher; se nota claramente ya que cada
+                                asesino mostrado en cámara es una referencia a las películas más famosas del género. En
+                                esta saga se mezclan los géneros de terror slasher y brujería. La creadora de estas
+                                cintas, Leigh Janiak, está casada con Ross Duffer, uno de los creadores de Stranger
+                                Things.">
+                            <h3>Curiosidades de la película</h3>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Detalle flotante -->
+        <div id="detalle-tarjeta" class="detalle-oculto">
+            <h3 id="detalle-titulo"></h3>
+            <p id="detalle-contenido"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
