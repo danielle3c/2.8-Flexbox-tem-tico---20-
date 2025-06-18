@@ -113,28 +113,28 @@ body {
     transform: scale(1.05);
 }
 
-/* Títulos de las tarjetas */
+/* === GALERÍA (Versión redundante, ya definida anteriormente con flex-column) === */
 .galeria {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px; /* 👈 Aquí se crea el espacio entre columnas */
-    flex-wrap: wrap; /* Para que sea responsivo */
-    margin-bottom: 30px; /* Separación con lo que está abajo */
+    display: flex;                     /* Aplica Flexbox para organizar hijos */
+    flex-direction: row;              /* Organiza los elementos hijos en fila (horizontal) */
+    justify-content: center;          /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: flex-start;          /* Alinea los elementos al inicio del eje vertical */
+    gap: 40px;                         /* Espacio entre las tarjetas */
+    flex-wrap: wrap;                  /* Permite que los elementos pasen a una nueva línea si no caben */
+    margin-bottom: 30px;              /* Espacio debajo de la galería */
 }
 
-/* Tarjetas individuales */
+/* === TARJETAS (Versión más estilizada y oscura) === */
 .tarjeta {
-    background-color: #1e1e1e;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-    color: #fff;
-    text-align: center;
-    padding-bottom: 1rem;
+    background-color: #1e1e1e;        /* Fondo oscuro para la tarjeta */
+    border-radius: 12px;              /* Bordes redondeados de 12px */
+    overflow: hidden;                 /* Oculta cualquier contenido que se desborde */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Sombra exterior para efecto de profundidad */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animación suave en hover */
+    cursor: pointer;                  /* Cambia el cursor al pasar sobre la tarjeta */
+    color: #fff;                      /* Color del texto en blanco */
+    text-align: center;              /* Centra el contenido dentro de la tarjeta */
+    padding-bottom: 1rem;             /* Espaciado inferior interno */
 }
 
 /* Efecto hover */
