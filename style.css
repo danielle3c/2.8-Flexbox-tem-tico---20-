@@ -115,7 +115,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Sombra exterior para efecto de profundidad */
     transition: transform 0.3s, box-shadow 0.3s; /* Animación suave en hover */
     cursor: pointer;                  /* Cambia el cursor al pasar sobre la tarjeta */
-    color: #fff;                      /* Color del texto en blanco */
+
     text-align: center;              /* Centra el contenido dentro de la tarjeta */
     padding-bottom: 1rem;             /* Espaciado inferior interno */
 }
