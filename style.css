@@ -67,14 +67,17 @@ body {
     color: #621c71;
 }
 
-
-/* === GALERÍA DE SECCIONES === */
+/* === GALERÍA (Versión redundante, ya definida anteriormente con flex-column) === */
 .galeria {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 20px;
+    display: flex;                     /* Aplica Flexbox para organizar hijos */
+    flex-direction: row;              /* Organiza los elementos hijos en fila (horizontal) */
+    justify-content: center;          /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: flex-start;          /* Alinea los elementos al inicio del eje vertical */
+    gap: 40px;                         /* Espacio entre las tarjetas */
+    flex-wrap: wrap;                  /* Permite que los elementos pasen a una nueva línea si no caben */
+    margin-bottom: 30px;              /* Espacio debajo de la galería */
 }
+
 
 .galeria section {
     display: flex;
@@ -97,32 +100,13 @@ body {
 }
 
 
-/* === TARJETAS === */
-.tarjeta {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
-    text-align: center;
-    min-width: 150px;
-    flex: 1;
-    max-width: 200px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-}
+
 
 .tarjeta:hover {
     transform: scale(1.05);
 }
 
-/* === GALERÍA (Versión redundante, ya definida anteriormente con flex-column) === */
-.galeria {
-    display: flex;                     /* Aplica Flexbox para organizar hijos */
-    flex-direction: row;              /* Organiza los elementos hijos en fila (horizontal) */
-    justify-content: center;          /* Centra horizontalmente los elementos dentro del contenedor */
-    align-items: flex-start;          /* Alinea los elementos al inicio del eje vertical */
-    gap: 40px;                         /* Espacio entre las tarjetas */
-    flex-wrap: wrap;                  /* Permite que los elementos pasen a una nueva línea si no caben */
-    margin-bottom: 30px;              /* Espacio debajo de la galería */
-}
+
 
 /* === TARJETAS (Versión más estilizada y oscura) === */
 .tarjeta {
@@ -137,11 +121,7 @@ body {
     padding-bottom: 1rem;             /* Espaciado inferior interno */
 }
 
-/* Efecto hover */
-.tarjeta:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-}
+
 
 /* Título de cada tarjeta */
 .tarjeta h3 {
