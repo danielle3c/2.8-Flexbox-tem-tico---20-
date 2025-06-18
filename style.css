@@ -103,12 +103,7 @@ body {
 
 
 .tarjeta:hover {
-    transform: scale(1.05);
-}
-
-/* Efecto hover */
-.tarjeta:hover {
-    transform: translateY(-8px);
+    transform: translateY(-8px) scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -176,20 +171,20 @@ body {
 }
 .protagonista img {
     width: 220px;
-    height: auto;
+    height: 240px;
     border-radius: 10px;
 }
 
 .otros-personajes {
     flex: 1;
     background-color: #d58214;
-    height: 600px;
+    height: 500px;
     min-width: 500px;
 }
 
 .otros-personajes img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
@@ -264,6 +259,8 @@ body {
 
 /* Otros personajes1 */
 .otros-personajes1 {
+    flex:1;
+    width: 250px;
     background-color: #d58214;
 }
 
@@ -331,13 +328,13 @@ height: 300px;
 
 .otros_personajes2 {
     background-color: #ffbe2c;
-    width: 1250px;
-    height: 690px;
+    width: 450px;
+    height: 300px;
 }
 
 .otros_personajes2 img {
     width: 100px;
-    height: auto;
+    height: 100px;
     border-radius: 10px;
 }
 
@@ -353,8 +350,8 @@ height: 300px;
 .curiosidades {
     flex: 1;
     background-color: #fef5bc;
-    height: 500px;
-    min-width: 400px;
+    height: 300px;
+    min-width: 100px;
 } 
 
 /* Detalle flotante */
